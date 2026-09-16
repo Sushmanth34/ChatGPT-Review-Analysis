@@ -2,22 +2,23 @@
 
 This project analyzes customer reviews of ChatGPT through comprehensive sentiment analysis and feature extraction. The goal is to understand overall user satisfaction, gauge the strength of user sentiment, and identify the specific features or aspects users most frequently praise or criticize.
 
-🎯 Objectives
+----🎯 Objectives
 Determine the general sentiment users express about ChatGPT (positive, neutral, negative)
 Measure the strength/subjectivity of those sentiments
 Identify specific features or aspects most frequently praised or criticized by users
-🛠️ Tools & Libraries Used
+
+----🛠️ Tools & Libraries Used
 Python
 Pandas — data manipulation and cleaning
 TextBlob / NLTK / spaCy — sentiment analysis and NLP
 Matplotlib / Seaborn — data visualization
 WordCloud — keyword visualization
-🧹 Data Preparation
+----🧹 Data Preparation
 Loaded and inspected the dataset
 Standardized column names
 Handled missing values (e.g., filled empty reviews, converted date formats)
 Ensured appropriate data types (e.g., ratings as numeric)
-📈 Analysis Performed
+----📈 Analysis Performed
 Sentiment Analysis
 Calculated sentiment polarity and subjectivity using NLP techniques
 Categorized reviews into positive, neutral, or negative based on polarity
